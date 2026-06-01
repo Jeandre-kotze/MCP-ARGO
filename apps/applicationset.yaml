@@ -9,8 +9,10 @@ spec:
       elements:
       - name: staging
         path: environments/staging
+        destNamespace: staging
       - name: prod
         path: environments/prod
+        destNamespace: prod
   template:
     metadata:
       name: '{{name}}-sample-app'
@@ -22,7 +24,7 @@ spec:
         path: '{{path}}'
       destination:
         server: 'https://kubernetes.default.svc'
-        namespace: default
+        namespace: '{{destNamespace}}'
       syncPolicy:
         automated:
           prune: true
