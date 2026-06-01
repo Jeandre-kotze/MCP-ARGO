@@ -1,6 +1,5 @@
 resources:
-- ../../apps/sample-app/deployment.yaml
-- ../../apps/sample-app/service.yaml
+- ../../apps/sample-app
 
 patchesStrategicMerge:
 - replica-patch.yaml
