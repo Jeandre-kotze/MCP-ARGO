@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-org/your-repo'
-    path: 'k8s'
-    targetRevision: main
+    repoURL: 'https://github.com/Jeandre-kotze/MCP-ARGO.git'
+    path: 'apps/sample-app'
+    targetRevision: master
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
