@@ -1,0 +1,7 @@
+# Node, IDE, OS files
+node_modules/
+.vscode/
+.DS_Store
+
+# GitOps
+*.secret
