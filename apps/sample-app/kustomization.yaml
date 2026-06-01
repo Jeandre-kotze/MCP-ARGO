@@ -1,0 +1,5 @@
+resources:
+- deployment.yaml
+- service.yaml
+
+# This base is a simple kustomize base for the sample app
