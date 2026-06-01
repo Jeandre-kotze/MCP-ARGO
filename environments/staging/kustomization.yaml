@@ -1,0 +1,5 @@
+resources:
+- ../../apps/sample-app
+
+patchesStrategicMerge:
+- replica-patch.yaml
